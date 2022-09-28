@@ -1,0 +1,21 @@
+#book {
+    background-image: linear-gradient(to left bottom, rgb(114, 109, 109), rgb(0, 0, 0));
+    color: white;
+    position: absolute;
+    height: 100%;
+}
+
+#content{
+    display: flex;
+    align-items: space-around;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    background-image: linear-gradient(to left bottom, rgb(114, 109, 109), rgb(0, 0, 0));
+}
+
+#description {
+    width: 50%;
+}
+
+
