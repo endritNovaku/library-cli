@@ -10,7 +10,7 @@ class Book extends React.Component {
     constructor(props) {
       super(props)
       this.state = {
-        url: window.location.href.replace("http://localhost:3000/", ""),
+        url: window.location.href.replace("https://snazzy-cannoli-c6f672.netlify.app/", ""),
         library: {},
         categories: [],
         isLoading: false
