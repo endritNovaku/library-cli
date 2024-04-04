@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-    baseURL: 'https://library-api-project-test.herokuapp.com/',
+    baseURL: 'https://library-app-server.onrender.com/',
 })
 
 //Books Api
